@@ -1,10 +1,10 @@
 ## 💡 Consultas de Splunk (Detección)
 
-<h1>Muestra todas las peticiones web relacionadas con el dominio y detectadas por el proxy<h1>
+<h1>Muestra todas las peticiones web relacionadas con el dominio y detectadas por el proxy</h1>
 index = proxy * <dominio> | search cs_host! = "api.domaintools
 
 
-<h1>Muestra de una consulta optimizada para detectar posibles intentos de *Password Spraying* en registros de autenticación de Windows:<h1>
+<h1>Muestra de una consulta optimizada para detectar posibles intentos de *Password Spraying* en registros de autenticación de Windows:</h1>
 ```spl
 index=wineventlog EventCode=4625 
 | bin _time span=10m 
