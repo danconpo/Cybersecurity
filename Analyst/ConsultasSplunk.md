@@ -1,30 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Mis Consultas de Splunk</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-    }
-    pre {
-      background-color: #1e1e1e;
-      color: #d4d4d4;
-      padding: 15px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    code {
-      font-family: Consolas, "Courier New", monospace;
-    }
-  </style>
-</head>
-<body>
-
 
 ## 💡 Consultas de Splunk (Detección)
 
@@ -41,5 +14,3 @@ index=wineventlog EventCode=4625
 | sort - usuarios_unicos
 ```
 
-  </body>
-</html>
